@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Avengers</display-name>
+  <servlet>
+    <servlet-name>EditarHeroeController</servlet-name>
+    <servlet-class>controller.EditarHeroeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarHeroeController</servlet-name>
+    <url-pattern>/EditarHeroeController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>EliminarHeroeController</servlet-name>
+    <servlet-class>controller.EliminarHeroeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarHeroeController</servlet-name>
+    <url-pattern>/EliminarHeroeController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>RegistrarHeroeController</servlet-name>
+    <servlet-class>controller.RegistrarHeroeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrarHeroeController</servlet-name>
+    <url-pattern>/RegistrarHeroeController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>RegistrarPelicula</servlet-name>
+    <servlet-class>controller.RegistrarPelicula</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrarPelicula</servlet-name>
+    <url-pattern>/RegistrarPelicula</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+</element>
